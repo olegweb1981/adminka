@@ -49,7 +49,6 @@ body {
   display: inline-block;
   padding: 10px 0;
 }
-.tabs a:hover,
 .tabs a:focus {
 	color: white;
   border-bottom: 4px solid white;
@@ -59,7 +58,7 @@ body {
   font-family: OpenSansBold;
   font-size: 12px;
   text-decoration: none;
-  padding: 7px;
+  padding: 8px;
 }
 .sidebar {
   width: 340px;
@@ -125,10 +124,10 @@ body {
   font-family: OpenSansSemiBold;
   padding: 17px 20px;
 }
-.left_b {
+.left_b .title{
   background-color: #3dbafc;
 }
-.right_b {
+.right_b .title{
   background-color: #64c8fd;
 }
 .add {
